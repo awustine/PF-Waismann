@@ -1,0 +1,53 @@
+/* ------- MediaQueries ------- */
+
+/* Escritorio */
+@media (max-width: 1628px)  {
+    .contacto{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+}
+
+/* Notebooks */
+@media (max-width: 992px)  {
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+}
+
+/* tablets */
+@media (max-width: 768px)  {
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+}
+
+/* Celulares y landscape mobile */
+@media (max-width: 600px)  {
+.menu ul li{
+    display: block;
+}
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 3rem;
+}
+.redes{
+    margin-left: -1rem;
+}
+
+h1 {
+    font-size: 90%;
+}
+}
+
+/* -------------------------- */

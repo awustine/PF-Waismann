@@ -1,0 +1,35 @@
+/* --------- Cards ---------- */
+
+.producto{
+    border: 1px solid #000;
+    margin:10px;
+    width: 300px;
+    height: 330px;
+}
+
+.producto__img{
+    width: 25rem;
+    height: 28rem;
+    margin: 1rem 2.5rem;
+}
+
+.producto__texto{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    padding: 3rem;
+    width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto__texto{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* -------------------------- */

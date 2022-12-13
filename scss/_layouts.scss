@@ -1,0 +1,23 @@
+/* ----- Estructura GRID ----- */
+
+.grid-container {
+	width: 100%;
+	max-width: 1820px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+    grid-template-columns: 1fr;
+	grid-template-rows: 250px, 150px, auto, 100px;
+	grid-template-areas:
+        'portada'
+		'barra'
+		'cuerpo'
+		'footer';
+}
+
+.cuerpo{
+    grid-area: cuerpo; 
+    text-align: center;
+}
+
+/* -------------------------- */

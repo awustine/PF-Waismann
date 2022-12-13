@@ -1,0 +1,318 @@
+/* ---------- Base ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* -------------------------- */
+/* ------- Tipografia ------- */
+/* 1 rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+.titulo {
+  border-bottom: 1px solid #000;
+  font-size: 2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+/* -------------------------- */
+/* ----- Estructura GRID ----- */
+.grid-container {
+  width: 100%;
+  max-width: 1820px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px, 150px, auto, 100px;
+  grid-template-areas: "portada" "barra" "cuerpo" "footer";
+}
+
+.cuerpo {
+  grid-area: cuerpo;
+  text-align: center;
+}
+
+/* -------------------------- */
+/* ------ Imagen fondo ------ */
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/vector-fondo-abstracto-acrilico-pastel_53876-102998.jpg?w=1380&t=st=1668694675~exp=1668695275~hmac=dabfbbeedc5df2ae99ff58140131a5175985fb878b8773a87201860e2be80bb8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* -------------------------- */
+/* --------- Portada --------- */
+.portada {
+  grid-area: portada;
+}
+
+.portada img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* -------------------------- */
+/* ------- Barra Nav -------- */
+nav {
+  grid-area: barra;
+  display: flex;
+  flex-direction: column-reverse;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  padding: 15px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  transition: 0.2s ease all;
+  font-size: 16px;
+  justify-items: center;
+}
+nav a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* -------------------------- */
+/* ------- Descrip Index ------- */
+.cuerpo {
+  grid-area: cuerpo;
+  text-align: center;
+}
+
+.presentacion {
+  line-height: 1.5;
+  padding-top: 3.5rem;
+}
+
+.itsme {
+  width: 25%;
+}
+
+.bienvenida {
+  padding: 5rem;
+}
+
+/* -------------------------- */
+/* --------- Sobre mi ---------- */
+.yo {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.sobre_mi {
+  line-height: 1.5;
+  text-transform: none;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bolder;
+  color: #272727;
+  padding-bottom: 1.5rem;
+}
+
+.asd {
+  padding: 5rem;
+}
+
+.preguntas {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+/* -------------------------- */
+/* --------- Cards ---------- */
+.producto {
+  border: 1px solid #000;
+  margin: 10px;
+  width: 300px;
+  height: 330px;
+}
+
+.producto__img {
+  width: 25rem;
+  height: 28rem;
+  margin: 1rem 2.5rem;
+}
+
+.producto__texto {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  padding: 3rem;
+  width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.producto__texto {
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* -------------------------- */
+/* -------- Formulario -------- */
+.formulario {
+  padding: 2.5rem;
+  width: 35rem;
+  margin: auto;
+  background-color: #b02454;
+  border-radius: 0.5rem;
+  box-shadow: 0.7rem 0rem 3rem #000;
+  margin-bottom: 10rem;
+  font-size: 1.5rem;
+}
+
+.form {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #272727;
+  font-family: "calibri";
+  font-size: 1.5rem;
+}
+
+#textarea {
+  resize: none;
+}
+
+.boton {
+  width: 50%;
+  border: none;
+  padding: 8px;
+  margin: 15px 25%;
+  border-radius: 5px;
+}
+
+/* -------------------------- */
+/* ---------- Redes ---------- */
+.contacto {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.redes {
+  width: 20rem;
+  height: 90px;
+  margin-left: 70px;
+  background-color: #b02454;
+  border-radius: 8px;
+  box-shadow: 7px 0px 25px #000;
+  border: 0px solid black;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.redes a {
+  color: #000;
+  text-decoration: none;
+}
+
+.social {
+  font-size: 1.5rem;
+}
+
+.logored {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+/* -------------------------- */
+/* -------- Footer -------- */
+.piecito {
+  grid-area: footer;
+  text-align: center;
+}
+
+/* -------------------------- */
+/* ------- MediaQueries ------- */
+/* Escritorio */
+@media (max-width: 1628px) {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+}
+/* Notebooks */
+@media (max-width: 992px) {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+}
+/* tablets */
+@media (max-width: 768px) {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 2rem;
+  }
+}
+/* Celulares y landscape mobile */
+@media (max-width: 600px) {
+  .menu ul li {
+    display: block;
+  }
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 3rem;
+  }
+  .redes {
+    margin-left: -1rem;
+  }
+  h1 {
+    font-size: 90%;
+  }
+}
+/* -------------------------- */
+
+/*# sourceMappingURL=styles.css.map */

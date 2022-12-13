@@ -1,0 +1,40 @@
+/* ---------- Redes ---------- */  
+
+.contacto{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.redes{
+    width: 20rem;
+    height: 90px;
+    margin-left: 70px;
+    background-color: #b02454;
+    border-radius: 8px;
+    box-shadow: 7px  0px 25px #000;
+    border: 0px solid black;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.redes a{
+    color: #000;
+	text-decoration: none;
+}
+
+.social{
+    font-size: 1.5rem;
+}
+
+.logored{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+/* -------------------------- */

@@ -1,0 +1,36 @@
+/* -------- Formulario -------- */
+
+.formulario{
+    padding: 2.5rem;
+    width: 35rem;
+    margin: auto;
+    background-color: #b02454;
+    border-radius: 0.5rem;
+    box-shadow: 0.7rem  0rem 3rem #000;
+    margin-bottom: 10rem;
+    font-size: 1.5rem;
+}
+
+.form{
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #272727;
+    font-family: 'calibri';
+    font-size: 1.5rem;
+}
+
+#textarea{
+    resize: none;
+}
+
+.boton{
+    width: 50%;
+    border: none;
+    padding: 8px;
+    margin: 15px 25%;
+    border-radius: 5px;
+}
+
+/* -------------------------- */
